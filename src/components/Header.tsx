@@ -44,6 +44,28 @@ const Header = () => {
                   Hook Context
                 </a>
               </li>
+              <li>
+                <a
+                  href="/finalform"
+                  className={`block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 lg:hover:bg-transparent lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${
+                    location.pathname === "/finalform" &&
+                    "text-primary-700 dark:text-white"
+                  }`}
+                >
+                  Final Form
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/tanstackform"
+                  className={`block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 lg:hover:bg-transparent lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${
+                    location.pathname === "/tanstackform" &&
+                    "text-primary-700 dark:text-white"
+                  }`}
+                >
+                  TanStack Form
+                </a>
+              </li>
             </ul>
           </div>
         </div>
